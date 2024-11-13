@@ -9789,7 +9789,7 @@ a.brand-logo img {
   vertical-align: baseline; }
 
 .header-section p {
-  max-width: 750px;
+  max-width: 950px;
   margin: 0 auto; }
 
 .header-section h3 {
@@ -9810,7 +9810,7 @@ a.brand-logo img {
 
 .header-section p {
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 22px;
   line-height: 26.5px;
   margin-left: auto;
   margin-right: auto;
@@ -10107,7 +10107,7 @@ nav#breadcrumbs a:hover {
 .w3l-header .navbar-expand-lg .navbar-nav .nav-link {
 
   transition: all 0.3s ease;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   padding: 8px 12px;
   line-height: 1;
