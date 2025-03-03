@@ -10055,7 +10055,7 @@ nav#breadcrumbs a:hover {
 
 
 .w3l-header header.active {
-  background: var(--bg-color); }
+  background: #212529 }
 
 .w3l-header .navbar {
   padding: 0; }
