@@ -10315,7 +10315,7 @@ nav#breadcrumbs a:hover {
     width: 34px;
     height: 34px;
     display: inline-block;
-    background: var(--primary-color);
+    background: #181D2E;
     border-radius: 4px;
     text-align: center; }
   .w3l-header .navbar-toggler-icon.fa {
