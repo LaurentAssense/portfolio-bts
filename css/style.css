@@ -13596,6 +13596,11 @@ h2.resp-accordion:first-child {
 .w3l-faq .panel {
   display: none; }
 
+.projet-oral {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 568px) {
   .w3l-faq .panel-title {
     font-size: 18px;
@@ -13611,4 +13616,10 @@ h2.resp-accordion:first-child {
   .w3l-faq .faq-question {
     padding: 0px 0 10px; } }
 
-
+.projet-oral-ecrit {
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
