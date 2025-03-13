@@ -13643,3 +13643,12 @@ h2.resp-accordion:first-child {
 .presentation .alinea {
   margin-left: 50px;
 }
+
+.pdf {
+  max-width: 200px;
+  margin-left: -25px;
+}
+
+.pdf p {
+  margin-left: 40px;
+}
