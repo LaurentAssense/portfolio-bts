@@ -13642,6 +13642,7 @@ h2.resp-accordion:first-child {
 
 .presentation {
   margin-top: 80px;
+  margin-bottom: -50px;
   margin-left: 250px;
   color: #000;
 }
@@ -13666,6 +13667,7 @@ h2.resp-accordion:first-child {
 .pdf {
   display: flex;
   max-width: 200px;
+  margin-top: 40px;
   margin-left: -25px;
 }
 
