@@ -64,37 +64,40 @@
     </section>
 
     <br><br>
+                    <section class="pageProjet">
                         <section class="w3l-index3 py-5">
                             <div class="container py-md-3">
 
-                                <div class="row pt-md-3">
+                                <div class="row pt-md-0">
                                     <div class="mx-auto">
                                         <div class="accordion" id="accordionExample">
                                             <div class="projet-oral">
                                                 <div class="subject-card p-0 m-5">
-                                                    <a href="./documents/GSB_Projet_Equipement.pdf" aria-expanded="false" target="_blank" ret="noreferre">
-                                                    <img src="images/gsb.png" class="img-fluid img-curve" alt="" />
-                                                    <p class="projet-oral-ecrit mb-2">GSB Projet Équipement</p>
+                                                    <a href="./documents/gsbEquipement/GSB_Projet_Equipement.pdf" aria-expanded="false" target="_blank" ret="noreferre">
+                                                    <img src="./documents/gsbEquipement/gsb.png" class="img-fluid img-curve" alt="" />
+                                                    <p class="projet-oral-ecrit mb-2">GSB Projet Équipement</p></a>
                                                 </div>
                                                 <div class="subject-card p-0 m-5">
                                                     <a href="./templates/gsb-frais.html" aria-expanded="false">
-                                                    <img src="images/gsb.png" class="img-fluid img-curve" alt="" />
-                                                    <p class="projet-oral-ecrit mb-2">GSB Frais</p>
+                                                    <img src="documents/gsbFrais/gsb.png" class="img-fluid img-curve" alt="" />
+                                                    <p class="projet-oral-ecrit mb-2">GSB Frais</p></a>
                                                 </div>
                                                 <div class="subject-card p-0 m-5">
                                                     <a href="./templates/symfony.html" aria-expanded="false">
-                                                    <img src="images/symfony.png" class="img-fluid img-curve" alt="" />
-                                                    <p class="projet-oral-ecrit mb-2">Symfony</p>
+                                                    <img src="documents/symfony/symfony.png" class="img-fluid img-curve" alt="" />
+                                                    <p class="projet-oral-ecrit mb-2">Symfony</p></a>
                                                 </div>
+                                            </div>
+                                            <div class="projet-oral">
                                                 <div class="subject-card p-0 m-5">
                                                     <a href="./templates/dotnet.html" aria-expanded="false">
                                                     <img src="images/dotnet.png" class="img-fluid img-curve" alt="" />
-                                                    <p class="projet-oral-ecrit">Dotnet</p>
+                                                    <p class="projet-oral-ecrit">Dotnet</p></a>
                                                 </div>
                                                 <div class="subject-card p-0 m-5">
                                                     <a href="./documents/Tableau de synthese.pdf" aria-expanded="false" target="_blank">
                                                     <img src="images/excel.png" class="img-fluid img-curve" alt="" />
-                                                    <p class="projet-oral-ecrit">Tableau de synthese</p>
+                                                    <p class="projet-oral-ecrit">Tableau de synthese</p></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -102,92 +105,120 @@
                                 </div>
                             </div>
                         </section>
-    <br><br><br><br><br><br><br>
-    <footer>
-        <section class="w3l-footer" style="position: relative;">
-          <div class="w3l-footer-16-main py-5">
-            <div class="container">
-      
-              <div class="below-section pt-4 mt-5 text-center">
-                           <p>&copy; ASSENSE Laurent - Parcours de certification complémentaire et portfolio - Chantilly</p>
-      
-              </div>
-            </div>
-          </div>
-      
-      
-          <button onclick="topFunction()" id="movetop" title="Go to top">
-            <span class="fa fa-angle-up"></span>
-          </button>
-          <script>
-      
-            // window.onscroll = function () {
-            //   scrollFunction()
-            // };
-      
-            // function scrollFunction() {
-            //   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            //     document.getElementById("movetop").style.display = "block";
-            //   } else {
-            //     document.getElementById("movetop").style.display = "none";
-            //   }
-            // }
-      
-            function topFunction() {
-              document.body.scrollTop = 0;
-              document.documentElement.scrollTop = 0;
-            }
-          </script>
-      
-          <!-- <script>
-            $(function () {
-              $('.navbar-toggler').click(function () {
-                $('body').toggleClass('noscroll');
-              })
-            });
-          </script> -->
-      
-       </section>
-      </footer>
+                    </section>
+    
 
-    <script src="js/jquery-1.9.1.min.js"></script>
+           <br><br><br><br><br>
+<footer>
+  <section class="w3l-footer">
+    <div class="w3l-footer-16-main py-5">
+      <div class="container">
+
+        <div class="below-section pt-4 mt-5 text-center">
+                 <p>&copy; ASSENSE Laurent - Parcours de certification complémentaire et portfolio - Chantilly</p>
+
+        </div>
+      </div>
+    </div>
+
+
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fa fa-angle-up"></span>
+    </button>
     <script>
-        $(function () {
-            $('.navbar-toggler').click(function () {
-                $('body').toggleClass('noscroll');
-            })
-        });
+
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
 
     <script>
-        $(window).on("scroll", function () {
-            var scroll = $(window).scrollTop();
-
-            if (scroll >= 80) {
-                $("#site-header").addClass("nav-fixed");
-            } else {
-                $("#site-header").removeClass("nav-fixed");
-            }
-        });
-
-
-        $(".navbar-toggler").on("click", function () {
-            $("header").toggleClass("active");
-        });
-        $(document).on("ready", function () {
-            if ($(window).width() > 991) {
-                $("header").removeClass("active");
-            }
-            $(window).on("resize", function () {
-                if ($(window).width() > 991) {
-                    $("header").removeClass("active");
-                }
-            });
-        });
+      $(function () {
+        $('.navbar-toggler').click(function () {
+          $('body').toggleClass('noscroll');
+        })
+      });
     </script>
 
-    <script src="js/bootstrap.min.js"></script>
+ </section>
 
+</footer>
+
+
+<script src="js/jquery-1.9.1.min.js"></script>
+
+<script src="js/easyResponsiveTabs.js"></script>
+
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    //Horizontal Tab
+    $('#parentHorizontalTab').easyResponsiveTabs({
+      type: 'default', //Types: default, vertical, accordion
+      width: 'auto', //auto or any width like 600px
+      fit: true, // 100% fit in a container
+      tabidentify: 'hor_1', // The tab groups identifier
+      activate: function (event) { // Callback function if tab is switched
+        var $tab = $(this);
+        var $info = $('#nested-tabInfo');
+        var $name = $('span', $info);
+        $name.text($tab.text());
+        $info.show();
+      }
+    });
+  });
+</script>
+
+
+<script>
+  $(function () {
+    $('.navbar-toggler').click(function () {
+      $('body').toggleClass('noscroll');
+    })
+  });
+</script>
+
+<script>
+  $(window).on("scroll", function () {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 80) {
+      $("#site-header").addClass("nav-fixed");
+    } else {
+      $("#site-header").removeClass("nav-fixed");
+    }
+  });
+
+
+  $(".navbar-toggler").on("click", function () {
+    $("header").toggleClass("active");
+  });
+  $(document).on("ready", function () {
+    if ($(window).width() > 991) {
+      $("header").removeClass("active");
+    }
+    $(window).on("resize", function () {
+      if ($(window).width() > 991) {
+        $("header").removeClass("active");
+      }
+    });
+  });
+</script>
+
+<script src="js/bootstrap.min.js"></script>
 
 
 </body>

@@ -10454,7 +10454,21 @@ nav#breadcrumbs a:hover {
   border-radius: var(--border-radius);
   box-shadow: var(--card-box-shadow);
   transition: 0.3s ease-in-out;
-  border: 1px solid var(--border-color); }
+  border: 1px solid var(--border-color); 
+  max-width: auto;
+  max-height: auto;}
+
+.pageProjet .w3l-index3 .subject-card {
+  background-color: var(--bg-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-box-shadow);
+  transition: 0.3s ease-in-out;
+  border: 1px solid var(--border-color); 
+  max-width: auto;
+  max-height: auto;}
+
+ .pageProjet .w3l-index3 .subject-card .img-fluid {
+    max-width: 200px; }
 
 .w3l-index3 .subject-card:hover {
   box-shadow: var(--card-hover-box-shadow);
@@ -13600,6 +13614,7 @@ h2.resp-accordion:first-child {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 568px) {
@@ -13649,6 +13664,7 @@ h2.resp-accordion:first-child {
 }
 
 .pdf {
+  display: flex;
   max-width: 200px;
   margin-left: -25px;
 }
