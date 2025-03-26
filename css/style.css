@@ -13709,3 +13709,16 @@ details[open] summary {
 .imgProjet {
   margin-top: 100px;
 }
+
+.imgProjetMCD img {
+  width: 800px;
+
+}
+
+.imgProjetMCD {
+  margin-top: 50px;
+}
+
+.imgProjet img {
+  max-width: 800px;
+}
