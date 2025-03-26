@@ -2784,9 +2784,13 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
-  margin: 15px;
-  width: 110px;
-  margin-left: 25px;}
+  margin: 15px;}
+
+  .img-fluidPdf {
+    height: auto;
+    margin: 15px;
+    width: 100px;
+    margin-left: 25px;}
 
 .img-thumbnail {
   padding: 0.25rem;
